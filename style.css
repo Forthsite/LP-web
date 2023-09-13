@@ -56,14 +56,17 @@ table {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    min-height: 98vh;
     overflow: hidden;
 }
-.lp{
-    width: 80rem;
+svg{
+    padding-top: 2%;
+    width: 30%;
 }
 .text{
-    margin-top: -40rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     color: whitesmoke;
     font-size: 4rem;
     padding: 7rem;
