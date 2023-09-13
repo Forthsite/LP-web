@@ -78,6 +78,8 @@ li{
     color: whitesmoke;
     font-size: 4rem;
     padding-left: 10px;
+    transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    cursor: default;
 }
 li::marker{
     content: "•";
@@ -92,6 +94,9 @@ li::marker{
     padding-top: 1.6rem;
     gap: 1rem;
     transition: all 0.2s ease-in-out;
+}
+li:hover{
+    filter: drop-shadow(5px 5px 10px #000000);
 }
 .line:hover{
     filter: drop-shadow(5px 5px 10px #000000);
